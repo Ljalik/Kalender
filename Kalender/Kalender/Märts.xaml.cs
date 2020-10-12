@@ -10,11 +10,16 @@ using Xamarin.Forms.Xaml;
 namespace Kalender
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Leto : TabbedPage
+    public partial class Märts : ContentPage
     {
-        public Leto()
+        public Märts()
         {
-            
+            InitializeComponent();
+            Grid grd=new Grid 
+            {
+                RowDefinitions=
+
+            }
         }
     }
 }
