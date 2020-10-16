@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace Kalender
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Märts : ContentPage
+    public partial class Aprill : ContentPage
     {
-        public Märts()
+        public Aprill()
         {
             InitializeComponent();
             Grid grd = new Grid
@@ -28,9 +28,9 @@ namespace Kalender
                     new ColumnDefinition{Width=new GridLength(1,GridUnitType.Star)}
                 }
             };
-            Label nimetus = new Label { Text = "Märts pilt", FontSize = 30 };
-            Image img = new Image { Source = "Mart.jpg" };
-            Label kirjeldus = new Label { Text = "Март первый месяц весны" };
+            Label nimetus = new Label { Text = "Aprill pilt", FontSize = 30 };
+            Image img = new Image { Source = "Aprell.jpg" };
+            Label kirjeldus = new Label { Text = "апрель второй месяц весны" };
             grd.Children.Add(nimetus, 0, 0);
             grd.Children.Add(img, 0, 1);
             grd.Children.Add(kirjeldus, 0, 2);

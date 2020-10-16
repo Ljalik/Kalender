@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Kalender.Aprill">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label TextColor="Blue"
+                   Text="2 апреля - всемирный день распространения информации о проблеме аутизма "
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

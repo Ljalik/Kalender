@@ -4,7 +4,8 @@
              x:Class="Kalender.Märts">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+            <Label TextColor="Red"
+                Text="8 марта - международный женский день"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>
