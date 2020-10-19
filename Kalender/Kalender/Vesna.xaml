@@ -9,9 +9,16 @@
             <Image Source="Mart.jpg"/>
         </StackLayout>
     </ContentPage>
-    <ContentPage Title="Aprill" >
+    <ContentPage Title="Aprill">
         <StackLayout>
-            
+            <Label Text="12 Апреля день рождения великиго императора Владислава Лялика" FontSize="10"/>
+            <Image Source="Aprell.jpg"/>
         </StackLayout>
-    <ContentPage Title="Mai" />
+    </ContentPage>
+    <ContentPage Title="Mai">
+        <StackLayout>
+            <Label Text="9 мая завершилась Вторая Мировая война" FontSize="10"/>
+            <Image Source="mai.jpg"/>
+        </StackLayout>
+    </ContentPage>
 </TabbedPage>
