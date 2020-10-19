@@ -5,18 +5,21 @@
     <!--Pages can be added as references or inline-->
     <ContentPage Title="Märts">
         <StackLayout>
+            <Button Text="Март" Clicked="Button_Clicked9"/>
             <Label Text="Marti pilti" FontSize="10"/>
             <Image Source="Mart.jpg"/>
         </StackLayout>
     </ContentPage>
     <ContentPage Title="Aprill">
         <StackLayout>
+            <Button Text="Апрель" Clicked="Button_Clicked10"/>
             <Label Text="12 Апреля день рождения великиго императора Владислава Лялика" FontSize="10"/>
             <Image Source="Aprell.jpg"/>
         </StackLayout>
     </ContentPage>
     <ContentPage Title="Mai">
         <StackLayout>
+            <Button Text="Май" Clicked="Button_Clicked11"/>
             <Label Text="9 мая завершилась Вторая Мировая война" FontSize="10"/>
             <Image Source="mai.jpg"/>
         </StackLayout>

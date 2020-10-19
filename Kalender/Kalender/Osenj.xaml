@@ -5,18 +5,25 @@
   <!--Pages can be added as references or inline-->
     <ContentPage Title="September">
         <StackLayout>
-            <Label Text="1 сентября началась Вторая Мировая война" FontSize="10"/>
+            <Label 
+                   Text="1 сентября началась Вторая Мировая война" 
+                   FontSize="10"/>
             <Image Source="sept.jpg"/>
+            <Button Text="Сентябрь" Clicked="Button_Clicked"/>
         </StackLayout>
     </ContentPage>
     <ContentPage Title="Oktoober">
         <StackLayout>
-            <Label Text="День учителей и наставников в Узбекистане  Праздники Узбекистана. У каждого из нас есть свой Учитель и свой Наставник. Это люди, без которых мы не состоялись бы как личности, не получили бы жизненно важных навыков, знаний и умений." FontSize="10"/>
+            <Label 
+                   Text="День учителей и наставников в Узбекистане  Праздники Узбекистана. У каждого из нас есть свой Учитель и свой Наставник. Это люди, без которых мы не состоялись бы как личности, не получили бы жизненно важных навыков, знаний и умений." 
+                   FontSize="10"/>
+            <Button Text="Октябрь" Clicked="Button_Clicked1"/>
             <Image Source="oktob.jpg"/>
         </StackLayout>
     </ContentPage>
     <ContentPage Title="November">
         <StackLayout>
+            <Button Text="Ноябрь" Clicked="Button_Clicked2"/>
             <Label Text="19 ноября 1942 года в ходе Великой Отечественной войны началась одна из крупнейших стратегических операций советских войск под кодовым названием «Уран». Началось контрнаступление в районе Сталинграда." FontSize="10"/>
             <Image Source="nove.jpg"/>
         </StackLayout>
